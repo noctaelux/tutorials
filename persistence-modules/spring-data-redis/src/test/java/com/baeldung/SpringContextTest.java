@@ -19,7 +19,7 @@ public class SpringContextTest {
     
     @BeforeClass
     public static void startRedisServer() {
-        redisServer = new RedisServerBuilder().port(6379).setting("maxmemory 256M").build();
+        redisServer = new RedisServerBuilder().port(6388).setting("maxmemory 256M").build();
         redisServer.start();
     }
 
